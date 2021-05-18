@@ -7,10 +7,12 @@ h1, h3 , h2 {
     text-align: center; 
 }
 
-h4 {
+h6 {
     text-align: center; 
-    background: black;
-    color: white;
+    background: rgb(5, 5, 5);
+    font-size: 15PX;
+    font-weight: initial;
+    color: rgb(255, 251, 251);
     width: 100% vw;
     height: 25% vh;
     
@@ -41,7 +43,8 @@ p {
 }
 
 #imagendeproyecto {
-width: 33%;
+width: 32%;
+align-content: center;
 }
 
 ::selection {
