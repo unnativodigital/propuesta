@@ -1,0 +1,20 @@
+* {
+    background:orange;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+h1, h3 {
+    background: white;
+}
+p {
+    background: white;
+}
+
+#imagendeproyecto {
+width: 30%;
+}
+::selection {
+    background: black;
+    color: white;
+}
