@@ -1,46 +1,65 @@
 * {
-    background:rgb(208, 191, 115);
+    background:rgb(fff7eb);
     font-family: 'Ubuntu', sans-serif;  
 }
 
 h1, h3 , h2 {
     text-align: center; 
+    color: #212a31;  
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: #212a31;
+    background: #f5c27a;
+    height: 150px;
 }
 
 h6 {
     text-align: center; 
-    background: rgb(5, 5, 5);
+    background:#212a31;
     font-size: 15PX;
     font-weight: initial;
     color: rgb(255, 251, 251);
     width: 100% vw;
     height: 25% vh;
-    
+    border-radius: 15px;    
     margin-top: 10px;
     border-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0px;
     border-bottom: 0px;
-    
-
-
-
 }
 
 nav, summary, details, a {
-background: rgba(14, 14, 14, 0.721);
+background: #ff5666;
 text-decoration: none;
 color: white;
+border-radius: 15px;
+font-size: 20px;
+
 }
 
 
-p {
-    background: rgba(14, 14, 14, 0.585);
+
+p.Hero {
+    background: #7765e3;
     border-radius: 15px;
     padding: 10px;
     color: white;
 }
+
+p {
+    background: #f5c27a;
+    border-radius: 15px;
+    padding: 10px;
+    color: #212a31;
+}
+
 
 #imagendeproyecto {
 width: 32%;
@@ -48,6 +67,6 @@ align-content: center;
 }
 
 ::selection {
-    background:white;
-    color:black;
+    background:rgb(7, 7, 7);
+    color:rgb(255, 255, 255);
 }
