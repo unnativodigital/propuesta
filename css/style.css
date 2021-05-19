@@ -44,6 +44,11 @@ font-size: 20px;
 
 }
 
+a.none{ background: white;
+color:#212a31 ;}
+
+a.afooter{ background: #212a31;
+color:white ;}
 
 
 p.Hero {
@@ -59,6 +64,7 @@ p {
     padding: 10px;
     color: #212a31;
 }
+
 
 
 #imagendeproyecto {
