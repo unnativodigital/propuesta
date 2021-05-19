@@ -21,9 +21,9 @@ h1 {
 h6 {
     text-align: center; 
     background:#212a31;
-    font-size: 15PX;
+    font-size: 14PX;
     font-weight: initial;
-    color: rgb(255, 251, 251);
+    color: rgba(241, 229, 229, 0.952);
     width: 100% vw;
     height: 25% vh;
     border-radius: 15px;    
@@ -48,9 +48,15 @@ a.none{ background: white;
 color:#212a31 ;}
 
 a.afooter{ background: #212a31;
-color:white ;}
+    color:white ;}
 
 
+p.Herolight {
+    background: #868d8c49;
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
 p.Hero {
     background: #7765e3;
     border-radius: 15px;
