@@ -7,6 +7,8 @@
 /* barra de navegacion */
 nav, summary, details, a {
 background: #0078d7;
+display:grid;
+
 text-decoration: none;
 color: #eeeeeefa;
 border-radius: 15px;
@@ -16,7 +18,7 @@ h1, h3 , h2 {
     text-align: center; 
     color: #212a31;  
 }
-/* banners h1 */
+/* banners principal h1 */
 h1 {
     border: none;
     display: flex;
@@ -27,6 +29,20 @@ h1 {
     background: #0076d7ec;
     height: 170px;
 }
+/* banners segundario h1 */
+
+#portafolio {
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #0076d7ec; 
+    color: #0076d7ec;
+    border-width: 10px;
+border-style: solid;
+}
+
 
 
 /* cvideo, imagenes */
@@ -53,16 +69,17 @@ h1 {
 
 
 p.Hero {
-    background: #eeeeee;
+    background:#b3b1b1;
     border-radius: 15px;
     padding: 10px;
     color: black;
 }
 
 p {
-    background: #eeeeee;
+    background:rgba(128, 128, 128, 0.088);
     padding: 10px;
     color: black;
+    
 }
 
 /* card */
@@ -75,6 +92,7 @@ max-width: 100%;
  div, p .card  { 
  display: inline-flex;
  width: 32%;
+
 }
 
 
@@ -84,12 +102,13 @@ max-width: 100%;
     align-items: center;
     font-size: 18px;
     font-weight: 250px;
-    border-color: white;
-    border: none;
+    color: white;
     width: 100%;
     height: 55px;
     background: #0A85ED;
-    color:white;
+    border-width: 7px;
+    border-style: double;
+    border-color: white
 }
 
 
@@ -97,17 +116,20 @@ max-width: 100%;
 
 
 .button, .button-whatsapp  {
+    font-size: 20px;
+    font-weight: 350px;
+    width: 100%;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    font-weight: 350px;
-    border-color: white;
-    border: none;
-    width: 99%;
-    height: 55px;
     background: #25d366;
-    color:white;    
+    color:white;
+    border-width: 10px;
+    border-style: double;
+    border-color: white    
+
+
 }
 
 
@@ -117,7 +139,7 @@ color:#0d41e1;
 }
     
 a.afooter{ background: #040d2b;
- color:#ffffff ;
+ color:# ;
 }
 
 h6 {
