@@ -95,6 +95,7 @@ max-width: 100%;
 
 /* whatsapp button */
 
+
 .button, .button-whatsapp  {
     display: flex;
     justify-content: center;
@@ -116,7 +117,7 @@ color:#0d41e1;
 }
     
 a.afooter{ background: #040d2b;
- color:white ;
+ color:#ffffff ;
 }
 
 h6 {
